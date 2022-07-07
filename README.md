@@ -34,11 +34,13 @@ NSArray *array =[[GCMParserManager shareInstance] parserExcel_XLS_WithPath:path]
 //XLSX文件解析
 NSArray *array =[[GCMParserManager shareInstance] parserExcel_XLSX_WithPath:path];
 ```
-如果觉得比较耗时可以将解析方法放在异步函数内
+如果觉得比较耗时可以将解析方法放在异步函数内，
 如果有问题可以提issue,好用记得点赞和打赏哦！
 您的鼓励和支持是我最大的动力。
+![1821657179646_ pic](https://user-images.githubusercontent.com/18001368/177719122-ebe6a281-d62d-4e90-bcd8-356217a1a07e.jpg)
 
 ## Author
+
 
 984603904@qq.com,
 
