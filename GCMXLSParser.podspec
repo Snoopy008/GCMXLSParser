@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/984603904@qq.com/GCMXLSParser'
+  s.homepage         = 'https://github.com/Snoopy008/GCMXLSParser'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '984603904@qq.com' => 'gechengming@kedacom.com' }
-  s.source           = { :git => 'https://github.com/984603904@qq.com/GCMXLSParser.git', :tag => s.version.to_s }
+  s.author           = { '984603904@qq.com' => 'Snoopy008' }
+  s.source           = { :git => 'https://github.com/Snoopy008/GCMXLSParser.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
