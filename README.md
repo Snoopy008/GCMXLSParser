@@ -20,6 +20,16 @@ it, simply add the following line to your Podfile:
 pod 'GCMXLSParser'
 ```
 
+
+## 使用
+```
+#import <GCMXLSParser/GCMParserManager.h>
+...
+NSString *path = [[NSBundle mainBundle] pathForResource:@"test3" ofType:@"xlsx"];
+[LAWExcelTool shareInstance].delegate = self;
+[[LAWExcelTool shareInstance] parserExcelWithPath:path];
+```
+
 ## Author
 
 984603904@qq.com,
