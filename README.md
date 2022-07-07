@@ -25,10 +25,18 @@ pod 'GCMXLSParser'
 ```
 #import <GCMXLSParser/GCMParserManager.h>
 ...
-NSString *path = [[NSBundle mainBundle] pathForResource:@"test3" ofType:@"xlsx"];
-[LAWExcelTool shareInstance].delegate = self;
-[[LAWExcelTool shareInstance] parserExcelWithPath:path];
+//CSV文件解析
+NSArray *array =[[GCMParserManager shareInstance] parserExcel_CSV_WithPath:path];
+
+//XLS文件解析
+NSArray *array =[[GCMParserManager shareInstance] parserExcel_XLS_WithPath:path];
+
+//XLSX文件解析
+NSArray *array =[[GCMParserManager shareInstance] parserExcel_XLSX_WithPath:path];
 ```
+如果觉得比较耗时可以将解析方法放在异步函数内
+如果有问题可以提issue,好用记得点赞和打赏哦！
+您的鼓励和支持是我最大的动力。
 
 ## Author
 
