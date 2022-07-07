@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'GCMXLSParser_Example' do
+  pod 'GCMXLSParser', :path => '../'
+  pod 'Masonry'
+
+  target 'GCMXLSParser_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
